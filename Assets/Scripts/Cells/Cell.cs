@@ -1,0 +1,92 @@
+using UnityEditor;
+using UnityEngine;
+
+public abstract class Cell : MonoBehaviour
+{
+    public int x;
+    public int y;
+    public float rot;
+    public Direction direction;
+    public int oldX;
+    public int oldY;
+    public float oldRot;
+    public int initialX;
+    public int initialY;
+    public float initialRot;
+    public Direction initialDir;
+    public CellType cellType;
+
+    
+    private SpriteRenderer sp;
+
+    private void Awake()
+    {
+        sp = GetComponent<SpriteRenderer>();
+    }
+
+	public void setXY(int newX, int newY)
+	{
+		x = newX;
+		y = newY;
+		GridManager.cellGrid[x, y] = this;
+	}
+
+    public virtual void SetDirection(Direction dir)
+    {
+        direction = dir;
+        rot = 0f;
+        switch (dir)
+        {
+            case Direction.Up:
+                rot = 90f;
+                break;
+            case Direction.Right:
+                rot = 0;
+                break;
+            case Direction.Down:
+                rot = 270f;
+                break;
+            case Direction.Left:
+                rot = 180f;
+                break;
+        }
+        
+    }
+
+
+    public abstract void ExecuteStep();
+
+    protected bool PushStack(Direction dir, int targetX, int targetY)
+    {
+        if (this is EmptyCell or ImmobileCell )
+		{
+			return false;
+		}
+        switch (dir)
+        {
+        case Direction.Right:
+            x++;
+            break;
+        case Direction.Up:
+            y++;
+            break;
+        case Direction.Left:
+            x--;
+            break;
+        case Direction.Down:
+            y--;
+            break;
+        }
+
+        return true;
+    }
+
+    	public void SetCurAsInitial()
+	{
+		initialRot = rot;
+		initialX = x;
+		initialY = y;
+		initialDir = direction;
+	}
+
+}

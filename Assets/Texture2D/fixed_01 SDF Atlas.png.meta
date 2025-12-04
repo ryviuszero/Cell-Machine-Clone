@@ -1,0 +1,2600 @@
+fileFormatVersion: 2
+guid: 0e1065cf4ab10b145ba96c194772c335
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2990401747422049680
+    second: fixed_01 SDF Atlas_0
+  - first:
+      213: 4170823829305897333
+    second: fixed_01 SDF Atlas_1
+  - first:
+      213: 497535139422063170
+    second: fixed_01 SDF Atlas_2
+  - first:
+      213: -2767123147892064151
+    second: fixed_01 SDF Atlas_3
+  - first:
+      213: 2118460111408711266
+    second: fixed_01 SDF Atlas_4
+  - first:
+      213: -4113155181982904291
+    second: fixed_01 SDF Atlas_5
+  - first:
+      213: 8378034718001369596
+    second: fixed_01 SDF Atlas_6
+  - first:
+      213: 3695604771138134197
+    second: fixed_01 SDF Atlas_7
+  - first:
+      213: 7109675584272906288
+    second: fixed_01 SDF Atlas_8
+  - first:
+      213: 827532182791835593
+    second: fixed_01 SDF Atlas_9
+  - first:
+      213: 2903254638324923630
+    second: fixed_01 SDF Atlas_10
+  - first:
+      213: 5771440062215108044
+    second: fixed_01 SDF Atlas_11
+  - first:
+      213: -7724599599796940965
+    second: fixed_01 SDF Atlas_12
+  - first:
+      213: -8909349307048905314
+    second: fixed_01 SDF Atlas_13
+  - first:
+      213: 2615240323563677926
+    second: fixed_01 SDF Atlas_14
+  - first:
+      213: -6149761345079473305
+    second: fixed_01 SDF Atlas_15
+  - first:
+      213: -8819297988692217114
+    second: fixed_01 SDF Atlas_16
+  - first:
+      213: -6138769535865141373
+    second: fixed_01 SDF Atlas_17
+  - first:
+      213: -3962329348018332478
+    second: fixed_01 SDF Atlas_18
+  - first:
+      213: -6381208149859253529
+    second: fixed_01 SDF Atlas_19
+  - first:
+      213: -1210069780510126013
+    second: fixed_01 SDF Atlas_20
+  - first:
+      213: -8150037677712691431
+    second: fixed_01 SDF Atlas_21
+  - first:
+      213: 711191323846592158
+    second: fixed_01 SDF Atlas_22
+  - first:
+      213: -1843520075683554973
+    second: fixed_01 SDF Atlas_23
+  - first:
+      213: 4360865708257425762
+    second: fixed_01 SDF Atlas_24
+  - first:
+      213: -8288993942951421439
+    second: fixed_01 SDF Atlas_25
+  - first:
+      213: 9152154398908553118
+    second: fixed_01 SDF Atlas_26
+  - first:
+      213: 4516740683030834879
+    second: fixed_01 SDF Atlas_27
+  - first:
+      213: -6372425945311470912
+    second: fixed_01 SDF Atlas_28
+  - first:
+      213: 2379501023575314472
+    second: fixed_01 SDF Atlas_29
+  - first:
+      213: -4139021817664219760
+    second: fixed_01 SDF Atlas_30
+  - first:
+      213: 6416054808665692052
+    second: fixed_01 SDF Atlas_31
+  - first:
+      213: 2136209047916840148
+    second: fixed_01 SDF Atlas_32
+  - first:
+      213: 5527549766446109439
+    second: fixed_01 SDF Atlas_33
+  - first:
+      213: 2151069083371050755
+    second: fixed_01 SDF Atlas_34
+  - first:
+      213: 5101239269603282647
+    second: fixed_01 SDF Atlas_35
+  - first:
+      213: 7157969771579937573
+    second: fixed_01 SDF Atlas_36
+  - first:
+      213: 8459664556016100194
+    second: fixed_01 SDF Atlas_37
+  - first:
+      213: 2523093954628491635
+    second: fixed_01 SDF Atlas_38
+  - first:
+      213: 2687770457219102561
+    second: fixed_01 SDF Atlas_39
+  - first:
+      213: -324527847392982024
+    second: fixed_01 SDF Atlas_40
+  - first:
+      213: 36714575033507165
+    second: fixed_01 SDF Atlas_41
+  - first:
+      213: -1721666507353868258
+    second: fixed_01 SDF Atlas_42
+  - first:
+      213: 3325249490958099080
+    second: fixed_01 SDF Atlas_43
+  - first:
+      213: -6723027983732909161
+    second: fixed_01 SDF Atlas_44
+  - first:
+      213: 749521458263234609
+    second: fixed_01 SDF Atlas_45
+  - first:
+      213: 2549014960355482072
+    second: fixed_01 SDF Atlas_46
+  - first:
+      213: -3400807678328553322
+    second: fixed_01 SDF Atlas_47
+  - first:
+      213: 1433572095871631953
+    second: fixed_01 SDF Atlas_48
+  - first:
+      213: -8615997545480722152
+    second: fixed_01 SDF Atlas_49
+  - first:
+      213: 8745573225939196583
+    second: fixed_01 SDF Atlas_50
+  - first:
+      213: 2897501885274881217
+    second: fixed_01 SDF Atlas_51
+  - first:
+      213: 3600061614995279053
+    second: fixed_01 SDF Atlas_52
+  - first:
+      213: -9146449506863651600
+    second: fixed_01 SDF Atlas_53
+  - first:
+      213: 6519481390051443307
+    second: fixed_01 SDF Atlas_54
+  - first:
+      213: -3235903640253528586
+    second: fixed_01 SDF Atlas_55
+  - first:
+      213: 5531394950940018671
+    second: fixed_01 SDF Atlas_56
+  - first:
+      213: -4142935126364206935
+    second: fixed_01 SDF Atlas_57
+  - first:
+      213: 7611049939362472738
+    second: fixed_01 SDF Atlas_58
+  - first:
+      213: 7790390182144002098
+    second: fixed_01 SDF Atlas_59
+  - first:
+      213: 6003195509092905116
+    second: fixed_01 SDF Atlas_60
+  - first:
+      213: -2942213200885246997
+    second: fixed_01 SDF Atlas_61
+  - first:
+      213: 2468430588097351629
+    second: fixed_01 SDF Atlas_62
+  - first:
+      213: 8058067695806515476
+    second: fixed_01 SDF Atlas_63
+  - first:
+      213: 3393885121656020573
+    second: fixed_01 SDF Atlas_64
+  - first:
+      213: -8360135919079885545
+    second: fixed_01 SDF Atlas_65
+  - first:
+      213: 1617124423675615261
+    second: fixed_01 SDF Atlas_66
+  - first:
+      213: -937860060906583970
+    second: fixed_01 SDF Atlas_67
+  - first:
+      213: 7403084568395335668
+    second: fixed_01 SDF Atlas_68
+  - first:
+      213: -7054547280172474117
+    second: fixed_01 SDF Atlas_69
+  - first:
+      213: 216297055345034592
+    second: fixed_01 SDF Atlas_70
+  - first:
+      213: -499616509886649685
+    second: fixed_01 SDF Atlas_71
+  - first:
+      213: -1065845419800690250
+    second: fixed_01 SDF Atlas_72
+  - first:
+      213: 4568063847821992729
+    second: fixed_01 SDF Atlas_73
+  - first:
+      213: -7503277842643258955
+    second: fixed_01 SDF Atlas_74
+  - first:
+      213: 1077545139404871134
+    second: fixed_01 SDF Atlas_75
+  - first:
+      213: 8886100214597990817
+    second: fixed_01 SDF Atlas_76
+  - first:
+      213: -2157857993943674604
+    second: fixed_01 SDF Atlas_77
+  - first:
+      213: 2570503626827221185
+    second: fixed_01 SDF Atlas_78
+  - first:
+      213: 3389067894381531986
+    second: fixed_01 SDF Atlas_79
+  - first:
+      213: 5059000940891167854
+    second: fixed_01 SDF Atlas_80
+  - first:
+      213: 5855747760978316747
+    second: fixed_01 SDF Atlas_81
+  - first:
+      213: -2543636809335314910
+    second: fixed_01 SDF Atlas_82
+  - first:
+      213: -2570178582267751573
+    second: fixed_01 SDF Atlas_83
+  - first:
+      213: -4100168541979917572
+    second: fixed_01 SDF Atlas_84
+  - first:
+      213: 5627367151506696950
+    second: fixed_01 SDF Atlas_85
+  - first:
+      213: -2291532937128056735
+    second: fixed_01 SDF Atlas_86
+  - first:
+      213: -2565459348676452626
+    second: fixed_01 SDF Atlas_87
+  - first:
+      213: 9153287378400387854
+    second: fixed_01 SDF Atlas_88
+  - first:
+      213: -7876790013678741150
+    second: fixed_01 SDF Atlas_89
+  - first:
+      213: 4219707957450450662
+    second: fixed_01 SDF Atlas_90
+  - first:
+      213: -4544179093090597224
+    second: fixed_01 SDF Atlas_91
+  - first:
+      213: 5117486523731992738
+    second: fixed_01 SDF Atlas_92
+  - first:
+      213: -4853687708837640012
+    second: fixed_01 SDF Atlas_93
+  - first:
+      213: -870560807686890669
+    second: fixed_01 SDF Atlas_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 446
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0957cc2ab8a008920800000000000000
+      internalID: 2990401747422049680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 446
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571338ebc2eb1e930800000000000000
+      internalID: 4170823829305897333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 439
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ac680c29997e600800000000000000
+      internalID: 497535139422063170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 439
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960022868243999d0800000000000000
+      internalID: -2767123147892064151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 491
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266c95b4f38466d10800000000000000
+      internalID: 2118460111408711266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 430
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d101ad787232be6c0800000000000000
+      internalID: -4113155181982904291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 480
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf19c52ff22c44470800000000000000
+      internalID: 8378034718001369596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 446
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b06ded85fc694330800000000000000
+      internalID: 3695604771138134197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038bad47644aaa260800000000000000
+      internalID: 7109675584272906288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 385
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfc283c22cfb7b00800000000000000
+      internalID: 827532182791835593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 378
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecbcd126be6a4820800000000000000
+      internalID: 2903254638324923630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 378
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc53ace7826481050800000000000000
+      internalID: 5771440062215108044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 433
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f8af53795bcc490800000000000000
+      internalID: -7724599599796940965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 386
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e953a7d4202ab5480800000000000000
+      internalID: -8909349307048905314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 399
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e86a48d7333b4420800000000000000
+      internalID: 2615240323563677926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b0c15b3a8a7aaa0800000000000000
+      internalID: -6149761345079473305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 324
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2fea7b43f8b9580800000000000000
+      internalID: -8819297988692217114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 369
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387c4c8b1a5becaa0800000000000000
+      internalID: -6138769535865141373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 338
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc1348837af209c0800000000000000
+      internalID: -3962329348018332478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 352
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2cfcd2ff46177a0800000000000000
+      internalID: -6381208149859253529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 352
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 340524322f7f43fe0800000000000000
+      internalID: -1210069780510126013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 385
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fa2e1b9ef35ee80800000000000000
+      internalID: -8150037677712691431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 338
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e964731bdb8aed900800000000000000
+      internalID: 711191323846592158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 338
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369949032408a66e0800000000000000
+      internalID: -1843520075683554973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 360
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269bdddb148e48c30800000000000000
+      internalID: 4360865708257425762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 317
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a14050de397fc80800000000000000
+      internalID: -8288993942951421439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 317
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9719748febf20f70800000000000000
+      internalID: 9152154398908553118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 308
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbeab9278bfaeae30800000000000000
+      internalID: 4516740683030834879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 305
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca1a348d589097a0800000000000000
+      internalID: -6372425945311470912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 305
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82092e4e29fa50120800000000000000
+      internalID: 2379501023575314472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 305
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0955888169d3f86c0800000000000000
+      internalID: -4139021817664219760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 291
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49794f1dad76a0950800000000000000
+      internalID: 6416054808665692052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 291
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d40f0b9fc655ad10800000000000000
+      internalID: 2136209047916840148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 334
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff25053f93dc5bc40800000000000000
+      internalID: 5527549766446109439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 273
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30718a93fe12add10800000000000000
+      internalID: 2151069083371050755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 334
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de0af2961e3bc640800000000000000
+      internalID: 5101239269603282647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 273
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523910c2597365360800000000000000
+      internalID: 7157969771579937573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 262
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2636d4ca714c66570800000000000000
+      internalID: 8459664556016100194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37911947594d30320800000000000000
+      internalID: 2523093954628491635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 263
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167755c8df0ec4520800000000000000
+      internalID: 2687770457219102561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 202
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb4b6864ab0f7bf0800000000000000
+      internalID: -324527847392982024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 256
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d93f226bf628000800000000000000
+      internalID: 36714575033507165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 256
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e183c7fee696b18e0800000000000000
+      internalID: -1721666507353868258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 247
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8822b1a4bc8a52e20800000000000000
+      internalID: 3325249490958099080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 244
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bd69e3ba103b2a0800000000000000
+      internalID: -6723027983732909161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 244
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138105f8bc5d66a00800000000000000
+      internalID: 749521458263234609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 244
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d91527e99bef5320800000000000000
+      internalID: 2549014960355482072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 244
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6904ecf4f67edc0d0800000000000000
+      internalID: -3400807678328553322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 244
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152475ec93215e310800000000000000
+      internalID: 1433572095871631953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 247
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819ebf3c1e3dd6880800000000000000
+      internalID: -8615997545480722152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 195
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aad54153848e5970800000000000000
+      internalID: 8745573225939196583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 195
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc75dfec9ef53820800000000000000
+      internalID: 2897501885274881217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_52
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 183
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc005307fcf5f130800000000000000
+      internalID: 3600061614995279053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_53
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 183
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4685b22a8411180800000000000000
+      internalID: -9146449506863651600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_54
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 183
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6249c558c9d97a50800000000000000
+      internalID: 6519481390051443307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_55
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 183
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f58b43a8c2c713d0800000000000000
+      internalID: -3235903640253528586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_56
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 183
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe74b2bb66673cc40800000000000000
+      internalID: 5531394950940018671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_57
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 183
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8c299e3765186c0800000000000000
+      internalID: -4142935126364206935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_58
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 221
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22365734891ef9960800000000000000
+      internalID: 7611049939362472738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_59
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 195
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238426c68960d1c60800000000000000
+      internalID: 7790390182144002098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90f3bc5282af4350800000000000000
+      internalID: 6003195509092905116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_61
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 141
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be315cbaea82b27d0800000000000000
+      internalID: -2942213200885246997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_62
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 80
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf4044aa80a14220800000000000000
+      internalID: 2468430588097351629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_63
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 134
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419099830e104df60800000000000000
+      internalID: 8058067695806515476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_64
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 122
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e5acc5980891f20800000000000000
+      internalID: 3393885121656020573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_65
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 122
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715724deca4dafb80800000000000000
+      internalID: -8360135919079885545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_66
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 122
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d181bce681e217610800000000000000
+      internalID: 1617124423675615261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_67
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 122
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5803ac5e3d0cf2f0800000000000000
+      internalID: -937860060906583970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_68
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 122
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f74165113a0db660800000000000000
+      internalID: 7403084568395335668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_69
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 122
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf02f1210a6391e90800000000000000
+      internalID: -7054547280172474117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_70
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 122
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065cdcd9601700300800000000000000
+      internalID: 216297055345034592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_71
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 134
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa294c6e610119f0800000000000000
+      internalID: -499616509886649685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b18d4fdc3b5531f0800000000000000
+      internalID: -1065845419800690250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913ebb0fdd5056f30800000000000000
+      internalID: 4568063847821992729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_74
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 19
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b170326e800fd790800000000000000
+      internalID: -7503277842643258955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_75
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 61
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed51daf589534fe00800000000000000
+      internalID: 1077545139404871134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_76
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 61
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9b2a98015c15b70800000000000000
+      internalID: 8886100214597990817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_77
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 61
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411104b569fbd02e0800000000000000
+      internalID: -2157857993943674604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_78
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 61
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8c3e2fd634ca320800000000000000
+      internalID: 2570503626827221185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_79
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 61
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253da4c3b43680f20800000000000000
+      internalID: 3389067894381531986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_80
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 61
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c5f205d8e253640800000000000000
+      internalID: 5059000940891167854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_81
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 61
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdc663409bc34150800000000000000
+      internalID: 5855747760978316747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_82
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 61
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226e5f57ccf23bcd0800000000000000
+      internalID: -2543636809335314910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_83
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 73
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b631d926234e45cd0800000000000000
+      internalID: -2570178582267751573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_84
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf24e084f664917c0800000000000000
+      internalID: -4100168541979917572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_85
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa2246fb9c681e40800000000000000
+      internalID: 5627367151506696950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_86
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168ef5b4fe6d230e0800000000000000
+      internalID: -2291532937128056735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_87
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee5f649058a56cd0800000000000000
+      internalID: -2565459348676452626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_88
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e032f9cdf52070f70800000000000000
+      internalID: 9153287378400387854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_89
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2699550373500b290800000000000000
+      internalID: -7876790013678741150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_90
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e629b3c70a6f8a30800000000000000
+      internalID: 4219707957450450662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_91
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8960490e035dfe0c0800000000000000
+      internalID: -4544179093090597224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_92
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 47
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0e4e531e6f40740800000000000000
+      internalID: 5117486523731992738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_93
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b88d08aebc34acb0800000000000000
+      internalID: -4853687708837640012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixed_01 SDF Atlas_94
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b127ece852be3f0800000000000000
+      internalID: -870560807686890669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fixed_01 SDF Atlas_0: 2990401747422049680
+      fixed_01 SDF Atlas_1: 4170823829305897333
+      fixed_01 SDF Atlas_10: 2903254638324923630
+      fixed_01 SDF Atlas_11: 5771440062215108044
+      fixed_01 SDF Atlas_12: -7724599599796940965
+      fixed_01 SDF Atlas_13: -8909349307048905314
+      fixed_01 SDF Atlas_14: 2615240323563677926
+      fixed_01 SDF Atlas_15: -6149761345079473305
+      fixed_01 SDF Atlas_16: -8819297988692217114
+      fixed_01 SDF Atlas_17: -6138769535865141373
+      fixed_01 SDF Atlas_18: -3962329348018332478
+      fixed_01 SDF Atlas_19: -6381208149859253529
+      fixed_01 SDF Atlas_2: 497535139422063170
+      fixed_01 SDF Atlas_20: -1210069780510126013
+      fixed_01 SDF Atlas_21: -8150037677712691431
+      fixed_01 SDF Atlas_22: 711191323846592158
+      fixed_01 SDF Atlas_23: -1843520075683554973
+      fixed_01 SDF Atlas_24: 4360865708257425762
+      fixed_01 SDF Atlas_25: -8288993942951421439
+      fixed_01 SDF Atlas_26: 9152154398908553118
+      fixed_01 SDF Atlas_27: 4516740683030834879
+      fixed_01 SDF Atlas_28: -6372425945311470912
+      fixed_01 SDF Atlas_29: 2379501023575314472
+      fixed_01 SDF Atlas_3: -2767123147892064151
+      fixed_01 SDF Atlas_30: -4139021817664219760
+      fixed_01 SDF Atlas_31: 6416054808665692052
+      fixed_01 SDF Atlas_32: 2136209047916840148
+      fixed_01 SDF Atlas_33: 5527549766446109439
+      fixed_01 SDF Atlas_34: 2151069083371050755
+      fixed_01 SDF Atlas_35: 5101239269603282647
+      fixed_01 SDF Atlas_36: 7157969771579937573
+      fixed_01 SDF Atlas_37: 8459664556016100194
+      fixed_01 SDF Atlas_38: 2523093954628491635
+      fixed_01 SDF Atlas_39: 2687770457219102561
+      fixed_01 SDF Atlas_4: 2118460111408711266
+      fixed_01 SDF Atlas_40: -324527847392982024
+      fixed_01 SDF Atlas_41: 36714575033507165
+      fixed_01 SDF Atlas_42: -1721666507353868258
+      fixed_01 SDF Atlas_43: 3325249490958099080
+      fixed_01 SDF Atlas_44: -6723027983732909161
+      fixed_01 SDF Atlas_45: 749521458263234609
+      fixed_01 SDF Atlas_46: 2549014960355482072
+      fixed_01 SDF Atlas_47: -3400807678328553322
+      fixed_01 SDF Atlas_48: 1433572095871631953
+      fixed_01 SDF Atlas_49: -8615997545480722152
+      fixed_01 SDF Atlas_5: -4113155181982904291
+      fixed_01 SDF Atlas_50: 8745573225939196583
+      fixed_01 SDF Atlas_51: 2897501885274881217
+      fixed_01 SDF Atlas_52: 3600061614995279053
+      fixed_01 SDF Atlas_53: -9146449506863651600
+      fixed_01 SDF Atlas_54: 6519481390051443307
+      fixed_01 SDF Atlas_55: -3235903640253528586
+      fixed_01 SDF Atlas_56: 5531394950940018671
+      fixed_01 SDF Atlas_57: -4142935126364206935
+      fixed_01 SDF Atlas_58: 7611049939362472738
+      fixed_01 SDF Atlas_59: 7790390182144002098
+      fixed_01 SDF Atlas_6: 8378034718001369596
+      fixed_01 SDF Atlas_60: 6003195509092905116
+      fixed_01 SDF Atlas_61: -2942213200885246997
+      fixed_01 SDF Atlas_62: 2468430588097351629
+      fixed_01 SDF Atlas_63: 8058067695806515476
+      fixed_01 SDF Atlas_64: 3393885121656020573
+      fixed_01 SDF Atlas_65: -8360135919079885545
+      fixed_01 SDF Atlas_66: 1617124423675615261
+      fixed_01 SDF Atlas_67: -937860060906583970
+      fixed_01 SDF Atlas_68: 7403084568395335668
+      fixed_01 SDF Atlas_69: -7054547280172474117
+      fixed_01 SDF Atlas_7: 3695604771138134197
+      fixed_01 SDF Atlas_70: 216297055345034592
+      fixed_01 SDF Atlas_71: -499616509886649685
+      fixed_01 SDF Atlas_72: -1065845419800690250
+      fixed_01 SDF Atlas_73: 4568063847821992729
+      fixed_01 SDF Atlas_74: -7503277842643258955
+      fixed_01 SDF Atlas_75: 1077545139404871134
+      fixed_01 SDF Atlas_76: 8886100214597990817
+      fixed_01 SDF Atlas_77: -2157857993943674604
+      fixed_01 SDF Atlas_78: 2570503626827221185
+      fixed_01 SDF Atlas_79: 3389067894381531986
+      fixed_01 SDF Atlas_8: 7109675584272906288
+      fixed_01 SDF Atlas_80: 5059000940891167854
+      fixed_01 SDF Atlas_81: 5855747760978316747
+      fixed_01 SDF Atlas_82: -2543636809335314910
+      fixed_01 SDF Atlas_83: -2570178582267751573
+      fixed_01 SDF Atlas_84: -4100168541979917572
+      fixed_01 SDF Atlas_85: 5627367151506696950
+      fixed_01 SDF Atlas_86: -2291532937128056735
+      fixed_01 SDF Atlas_87: -2565459348676452626
+      fixed_01 SDF Atlas_88: 9153287378400387854
+      fixed_01 SDF Atlas_89: -7876790013678741150
+      fixed_01 SDF Atlas_9: 827532182791835593
+      fixed_01 SDF Atlas_90: 4219707957450450662
+      fixed_01 SDF Atlas_91: -4544179093090597224
+      fixed_01 SDF Atlas_92: 5117486523731992738
+      fixed_01 SDF Atlas_93: -4853687708837640012
+      fixed_01 SDF Atlas_94: -870560807686890669
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
