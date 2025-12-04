@@ -18,8 +18,8 @@ public class GridManager : MonoBehaviour
 
     float animTime = 0.2f;
     private float animElapsed;
-    private bool isAnimating;
-    private bool isPlayMode;
+    public static bool isAnimating;
+    public static bool isPlayMode;
 
     
 
@@ -46,9 +46,6 @@ public class GridManager : MonoBehaviour
 
     void Update()
     {
-        // AnimateCells();
-        // BuildGrid();
-        // BuildBorder();
         AnimateCells();
     }
 
@@ -88,6 +85,7 @@ public class GridManager : MonoBehaviour
         {
             cell.ExecuteStep();
         }
+        isAnimating = true;
         animElapsed = 0f;
     }
 
@@ -113,7 +111,23 @@ public class GridManager : MonoBehaviour
 		isPlayMode = false;
 	}
 
-
+    public void ResetSim()
+    {
+        isPlayMode = false;
+        isAnimating = false;
+        for(int i = 0; i < width; i++)
+        {
+            for (int j = 0; j < height; j++)
+            {
+                cellGrid[i, j] = null;
+            }
+        }
+        foreach (Cell cell in cells)
+        {
+            cell.ResetCell();
+        }
+        
+    }
     private void BuildBorder()
     {
         for (int i = 0; i < width; i++)

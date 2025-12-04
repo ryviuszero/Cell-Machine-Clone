@@ -15,6 +15,7 @@ public abstract class Cell : MonoBehaviour
     public float initialRot;
     public Direction initialDir;
     public CellType cellType;
+    public bool active = true;
 
     
     private SpriteRenderer sp;
@@ -51,6 +52,28 @@ public abstract class Cell : MonoBehaviour
                 break;
         }
         
+    }
+
+    public void Deactivate()
+    {
+        active = false;
+        gameObject.SetActive(false);
+    }
+
+    public void ResetCell()
+    {
+        if(!active)
+        {
+            active = true;
+            gameObject.SetActive(true);
+        }
+        x = initialX;
+        y = initialY;
+        transform.position = new Vector3(x, y, 0);
+        SetDirection(initialDir);
+        rot = initialRot;
+        transform.rotation = Quaternion.Euler(0f, 0f, rot);
+        GridManager.cellGrid[x, y] = this;
     }
 
 
