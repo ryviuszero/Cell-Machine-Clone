@@ -16,6 +16,7 @@ public abstract class Cell : MonoBehaviour
     public Direction initialDir;
     public CellType cellType;
     public bool active = true;
+    protected bool onGrid;
 
     
     private SpriteRenderer sp;
@@ -27,6 +28,14 @@ public abstract class Cell : MonoBehaviour
 
 	public void setXY(int newX, int newY)
 	{
+        if (onGrid)
+        {
+            GridManager.cellGrid[x, y] = null;
+        }
+        else
+        {
+            onGrid = true;
+        }
 		x = newX;
 		y = newY;
 		GridManager.cellGrid[x, y] = this;
@@ -81,7 +90,7 @@ public abstract class Cell : MonoBehaviour
 
     protected bool PushStack(Direction dir, int targetX, int targetY)
     {
-        if (this is EmptyCell or ImmobileCell )
+        if (this is ImmobileCell )
 		{
 			return false;
 		}

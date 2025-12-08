@@ -1,6 +1,5 @@
+using System;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
 public class GridManager : MonoBehaviour
@@ -13,6 +12,7 @@ public class GridManager : MonoBehaviour
 
     private List<Cell> cells;
     public static Cell[,] cellGrid;
+    public static EmptyCell[,] emptyCells;
     public static int width = 12;
     public static int height = 8;
 
@@ -20,6 +20,7 @@ public class GridManager : MonoBehaviour
     private float animElapsed;
     public static bool isAnimating;
     public static bool isPlayMode;
+    public bool startedSim;
 
     
 
@@ -29,10 +30,26 @@ public class GridManager : MonoBehaviour
         cells = new List<Cell>();
         cellGrid = new Cell[width, height];
         PositionCamera();
-        BuildGrid();
-        // BuildBorder();
-        SpawnCell(CellType.RightMover, 5, 5);
+        BuildLevel();
 
+    }
+
+    private void BuildLevel()
+    {
+        (new Action[1]{
+            MoveIntro
+        })[GameData.level].Invoke();
+    }
+
+    private void MoveIntro()
+    {
+        SetGridSize(10, 7);
+		SetBuildArea(1, 1, 4, 5);
+		BuildBorder();
+		// SpawnEnemy(7, 2);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+		SpawnCell(CellType.RightMover, 2, 4);
+		// UIEvents.instance.SetTutorialText("Drag cells in the build area. Press play to run the simulation. Destroy the enemy cells to win.");
+       
     }
 
     public void PositionCamera()
@@ -75,6 +92,10 @@ public class GridManager : MonoBehaviour
 
     private void ExecuteGlobalStep()
     {
+        if (DragManager.instance.InDrag())
+		{
+			return;
+		}
         foreach (Cell cell in cells)
 		{
 			cell.oldX = cell.x;
@@ -144,16 +165,39 @@ public class GridManager : MonoBehaviour
 
     private void BuildGrid()
     {
+       emptyCells = new EmptyCell[width, height];
        for (int i = 0; i < width; i++)
         {
             for (int j = 0; j < height; j++)
             {
-                Cell cell = Instantiate(emptyCell, new Vector3(i, j, 0.1f), Quaternion.identity).GetComponent<Cell>();
+                EmptyCell cell = Instantiate(emptyCell, new Vector3(i, j, 0.1f), Quaternion.identity).GetComponent<EmptyCell>();
                 cell.transform.SetParent(transform);
-                cell.transform.localScale = new Vector3(1f, 1f, 1f);
+                emptyCells[i, j] = cell;
             }
         }
     }
+
+    private void SetBuildArea(int x, int y, int width, int height)
+	{
+		for (int i = x; i < x + width; i++)
+		{
+			for (int j = y; j < y + height; j++)
+			{
+				emptyCells[i, j].SetPlaceable(placeable: true);
+			}
+		}
+	}
+
+    private void BuildImmobileRect(int x, int y, int width, int height)
+	{
+		for (int i = x; i < x + width; i++)
+		{
+			for (int j = y; j < y + height; j++)
+			{
+				SpawnCell(CellType.Immobile, i, j);
+			}
+		}
+	}
 
     private void SpawnCell(CellType cellType, int x, int y)
     {

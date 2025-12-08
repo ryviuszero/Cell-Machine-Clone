@@ -1,5 +1,22 @@
-public class EmptyCell : Cell
+using UnityEngine;
+
+public class EmptyCell : MonoBehaviour
 {
-    public override void ExecuteStep()
-    {}
+	public bool canPlace;
+
+	private SpriteRenderer sp;
+
+	private void Awake()
+	{
+		sp = GetComponent<SpriteRenderer>();
+	}
+
+	public void SetPlaceable(bool placeable)
+	{
+		canPlace = placeable;
+		if (canPlace)
+		{
+			sp.color = new Color(0.25f, 0.25f, 0.25f);
+		}
+	}
 }
