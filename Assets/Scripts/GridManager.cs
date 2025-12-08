@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GridManager : MonoBehaviour
@@ -9,10 +10,15 @@ public class GridManager : MonoBehaviour
     public GameObject emptyCell;
     public GameObject moverCell;
     public GameObject immobileCell;
+    public GameObject enemyCell;
 
     private List<Cell> cells;
     public static Cell[,] cellGrid;
     public static EmptyCell[,] emptyCells;
+    private List<Cell> generatedCells;
+    public List<EnemyCell> enemies;
+    private int enemiesKilled;
+    private int totoalEnemies;
     public static int width = 12;
     public static int height = 8;
 
@@ -22,13 +28,17 @@ public class GridManager : MonoBehaviour
     public static bool isPlayMode;
     public bool startedSim;
 
+    private bool levelCompleted;
+
     
 
     private void Awake()
     {
         instance = this;
         cells = new List<Cell>();
+        generatedCells = new List<Cell>();
         cellGrid = new Cell[width, height];
+        enemies = new List<EnemyCell>();
         PositionCamera();
         BuildLevel();
 
@@ -46,7 +56,7 @@ public class GridManager : MonoBehaviour
         SetGridSize(10, 7);
 		SetBuildArea(1, 1, 4, 5);
 		BuildBorder();
-		// SpawnEnemy(7, 2);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+		SpawnEnemy(7, 2);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 		SpawnCell(CellType.RightMover, 2, 4);
 		// UIEvents.instance.SetTutorialText("Drag cells in the build area. Press play to run the simulation. Destroy the enemy cells to win.");
        
@@ -84,10 +94,41 @@ public class GridManager : MonoBehaviour
             cell.transform.position = Vector3.Lerp(new Vector3(cell.oldX, cell.oldY, 0f), new Vector3(cell.x, cell.y, 0f), num);
             cell.transform.rotation = Quaternion.Slerp(Quaternion.Euler(0f, 0f, cell.oldRot), Quaternion.Euler(0f, 0f, cell.rot), num);
         }
+        if( num == 1f )
+        {
+            CheckEnemies();
+        }
         if( num == 1f && isPlayMode)
         {
             ExecuteGlobalStep();
         }
+    }
+
+    private void CheckEnemies()
+    {
+        if (levelCompleted)
+        {
+            return;
+        }
+        foreach (EnemyCell enemy in enemies)
+        {
+            if (enemy.alive && cellGrid[enemy.x, enemy.y] != null)
+            {
+                enemy.Kill();
+                enemiesKilled++;
+                cellGrid[enemy.x, enemy.y].Deactivate();
+            }
+        }
+        if (enemiesKilled == totoalEnemies)
+        {
+            levelCompleted = true;
+            WinLevel();
+        }
+    }
+
+    private void WinLevel()
+    {
+        return;   
     }
 
     private void ExecuteGlobalStep()
@@ -96,6 +137,8 @@ public class GridManager : MonoBehaviour
 		{
 			return;
 		}
+        startedSim = true;
+        cells.Sort((Cell a, Cell b) => a.cellType.CompareTo(b.cellType));
         foreach (Cell cell in cells)
 		{
 			cell.oldX = cell.x;
@@ -134,6 +177,7 @@ public class GridManager : MonoBehaviour
 
     public void ResetSim()
     {
+        enemiesKilled = 0;
         isPlayMode = false;
         isAnimating = false;
         for(int i = 0; i < width; i++)
@@ -146,6 +190,10 @@ public class GridManager : MonoBehaviour
         foreach (Cell cell in cells)
         {
             cell.ResetCell();
+        }
+        foreach (EnemyCell enemy in enemies)
+        {
+            enemy.Reanimate();
         }
         
     }
@@ -221,8 +269,20 @@ public class GridManager : MonoBehaviour
 		cell.transform.position = new Vector3(cell.x, cell.y);
 		cell.transform.rotation = Quaternion.Euler(0f, 0f, cell.rot);
 		cell.SetCurAsInitial();
-        if (cell == null) return;
         cells.Add(cell);
+        if(startedSim)
+        {
+            generatedCells.Add(cell);
+        }
+    }
+
+    private void SpawnEnemy(int x, int y)
+    {
+        EnemyCell enemy = Instantiate(enemyCell, new Vector3(x, y, 0), Quaternion.identity).GetComponent<EnemyCell>();
+        enemy.transform.SetParent(transform);
+        enemies.Add(enemy);
+        enemy.setXY(x, y);
+        totoalEnemies++;
     }
 
     private void Playground()

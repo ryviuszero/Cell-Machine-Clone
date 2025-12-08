@@ -18,14 +18,6 @@ public abstract class Cell : MonoBehaviour
     public bool active = true;
     protected bool onGrid;
 
-    
-    private SpriteRenderer sp;
-
-    private void Awake()
-    {
-        sp = GetComponent<SpriteRenderer>();
-    }
-
 	public void setXY(int newX, int newY)
 	{
         if (onGrid)
@@ -67,6 +59,7 @@ public abstract class Cell : MonoBehaviour
     {
         active = false;
         gameObject.SetActive(false);
+        GridManager.cellGrid[x, y] = null;
     }
 
     public void ResetCell()
@@ -88,8 +81,14 @@ public abstract class Cell : MonoBehaviour
 
     public abstract void ExecuteStep();
 
-    protected bool PushStack(Direction dir, int targetX, int targetY)
+    protected bool PushStack(Direction dir)
     {
+        if (GridManager.cellGrid[x, y] == null)
+		{
+			return true;
+		}
+        int tmpX = x;
+        int tmpY = y;
         if (this is ImmobileCell )
 		{
 			return false;
@@ -109,6 +108,8 @@ public abstract class Cell : MonoBehaviour
             y--;
             break;
         }
+
+        GridManager.cellGrid[tmpX, tmpY].setXY(x, y);
 
         return true;
     }
