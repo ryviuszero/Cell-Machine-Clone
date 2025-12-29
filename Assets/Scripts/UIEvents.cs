@@ -1,4 +1,6 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -9,10 +11,12 @@ public class UIEvent : MonoBehaviour
     public Image playBtnImage;
     public GameObject resetButton;
     public static UIEvent instance;
+    public TextMeshProUGUI tutorialText;
 
     private void Awake()
     {
         instance = this;
+        tutorialText.gameObject.SetActive(value: false);
     }
 
     private void Update()
@@ -61,5 +65,29 @@ public class UIEvent : MonoBehaviour
     public void PauseButtonPressed()
     {
         GridManager.instance.PauseSim();
+    }
+
+    public void NextLevel()
+    {
+        GameData.level++;
+        if(GameData.level >= 17)
+        {
+            SceneManager.LoadScene("Title");
+        }
+        else
+        {
+            SceneManager.LoadScene("Game");
+        }
+    }
+
+    public void ToMenu()
+    {
+        SceneManager.LoadScene("Title");
+    }
+
+    public void SetTutorialText(string text)
+    {
+        tutorialText.gameObject.SetActive(true);
+        tutorialText.text = text;
     }
 }
