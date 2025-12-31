@@ -4,19 +4,27 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-public class UIEvent : MonoBehaviour
+public class UIEvents : MonoBehaviour
 {
+    public GameObject nextLevelBtn;
     public Sprite playSprite;
     public Sprite pauseSprite;
     public Image playBtnImage;
     public GameObject resetButton;
-    public static UIEvent instance;
+    public static UIEvents instance;
     public TextMeshProUGUI tutorialText;
 
     private void Awake()
     {
         instance = this;
         tutorialText.gameObject.SetActive(value: false);
+    }
+
+    private void Start()
+    {
+        EventManager.StartListening("LevelComplete", delegate { nextLevelBtn.SetActive(true); });
+        nextLevelBtn.SetActive(value: false);
+        resetButton.SetActive(value: false);
     }
 
     private void Update()
@@ -52,7 +60,10 @@ public class UIEvent : MonoBehaviour
         {
             GridManager.instance.PauseSim();
         }
-        GridManager.instance.StepSim();
+        else
+        {
+            GridManager.instance.StepSim();        
+        }
     }
 
     public void ResetButtonPressed()

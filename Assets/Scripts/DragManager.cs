@@ -54,6 +54,7 @@ public class DragManager : MonoBehaviour
                 draggedCell.transform.position = new Vector3(draggedCell.transform.position.x, draggedCell.transform.position.y, -0.2f);
                 offset = vector - cell.transform.position;
                 isDragging = true;
+                AudioManager.instance.Play("Place3");
             }
         }
         
@@ -74,9 +75,10 @@ public class DragManager : MonoBehaviour
         {
            draggedCell.setXY(num, num2);
            draggedCell.transform.position = new Vector3(num, num2, 0);
-           draggedCell.SetCurAsInitial();
+        //    draggedCell.SetCurAsInitial();
         }
         draggedCell.transform.position = new Vector3(draggedCell.x, draggedCell.y, 0);
+        AudioManager.instance.Play("Place4");
     }
 
     private bool ValidDropCell(int x, int y)

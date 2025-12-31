@@ -16,6 +16,7 @@ public abstract class Cell : MonoBehaviour
     public Direction initialDir;
     public CellType cellType;
     public bool active = true;
+    public bool isGenerated = false;
     protected bool onGrid;
 
 	public void setXY(int newX, int newY)
@@ -81,40 +82,99 @@ public abstract class Cell : MonoBehaviour
 
     public abstract void ExecuteStep();
 
-    protected bool PushStack(Direction dir)
+    protected bool PushStack(Direction dir, int posX, int posY)
     {
-        if (GridManager.cellGrid[x, y] == null)
+        if (GridManager.cellGrid[posX, posY] == null)
 		{
 			return true;
 		}
-        int tmpX = x;
-        int tmpY = y;
+        int tmpX = posX;
+        int tmpY = posY;
         if (this is ImmobileCell )
 		{
 			return false;
 		}
-        switch (dir)
-        {
-        case Direction.Right:
-            x++;
-            break;
-        case Direction.Up:
-            y++;
-            break;
-        case Direction.Left:
-            x--;
-            break;
-        case Direction.Down:
-            y--;
-            break;
-        }
 
-        GridManager.cellGrid[tmpX, tmpY].setXY(x, y);
+        if (GridManager.cellGrid[posX, posY] is SlideCell slideCell)
+		{
+			if (slideCell.orientation == Orientation.Vertical && (direction == Direction.Right || direction == Direction.Left))
+			{
+				return false;
+			}
+			if (slideCell.orientation == Orientation.Horizontal && (direction == Direction.Up || direction == Direction.Down))
+			{
+				return false;
+			}
+		}
+
+        while(true)
+        {
+            switch (dir)
+            {
+            case Direction.Right:
+                posX++;
+                break;
+            case Direction.Up:
+                posY++;
+                break;
+            case Direction.Left:
+                posX--;
+                break;
+            case Direction.Down:
+                posY--;
+                break;
+            }
+            if (posX < 0 || posX >= GridManager.width || posY < 0 || posY >= GridManager.height)
+            {
+                return false;
+            }
+            if (GridManager.cellGrid[posX, posY] == null)
+            {
+                break;
+            }
+            if (GridManager.cellGrid[posX, posY] is SlideCell slideCell2)
+			{
+				if (slideCell2.orientation == Orientation.Vertical && (direction == Direction.Right || direction == Direction.Left))
+				{
+					return false;
+				}
+				if (slideCell2.orientation == Orientation.Horizontal && (direction == Direction.Up || direction == Direction.Down))
+				{
+					return false;
+				}
+			}
+			if (GridManager.cellGrid[posX, posY] is ImmobileCell)
+			{
+				return false;
+			}
+        }
+        do
+        {
+            int newX = posX;
+            int newY = posY;
+            switch (direction)
+			{
+			case Direction.Right:
+				posX--;
+				break;
+			case Direction.Up:
+				posY--;
+				break;
+			case Direction.Left:
+				posX++;
+				break;
+			case Direction.Down:
+				posY++;
+				break;
+			}
+            GridManager.cellGrid[posX, posY].setXY(newX, newY);
+        }while (posX != tmpX || posY != tmpY);
+        AudioManager.instance.Play("Move");
 
         return true;
     }
 
-    	public void SetCurAsInitial()
+    public void SetCurAsInitial()
 	{
 		initialRot = rot;
 		initialX = x;

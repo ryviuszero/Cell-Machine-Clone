@@ -17,6 +17,7 @@ public class EnemyCell : MonoBehaviour
 
     public void Kill()
     {
+        AudioManager.instance.PlaySoundGroup("Explosion");
         gameObject.SetActive(false);
         alive = false;
     }

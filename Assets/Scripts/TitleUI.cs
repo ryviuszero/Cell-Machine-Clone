@@ -60,7 +60,6 @@ public class TitleUI : MonoBehaviour
 
     public void ShowMain()
     {
-        Debug.Log("ShowMain");
         mainScreen.SetActive(value: true);
         levelScreen.SetActive(value: false);
         Camera.main.transform.position = new Vector3(mainScreen.transform.position.x, mainScreen.transform.position.y, -10f);

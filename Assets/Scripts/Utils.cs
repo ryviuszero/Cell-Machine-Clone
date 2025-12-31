@@ -31,4 +31,19 @@ public class GameData
 }
 
 
+public enum Orientation
+{
+	Vertical = 0,
+	Horizontal = 1
+}
+
+public enum SpinDir
+{
+	Positive = 0,
+	Negative = 1
+}
+
+
+
+
 
